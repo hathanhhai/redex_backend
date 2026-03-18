@@ -7,7 +7,7 @@ services:
     container_name: redex_backend_app
     restart: unless-stopped
     ports:
-      - "6045:8000"
+      - "2045:8000"
     volumes:
       - .:/var/www/html
     environment:
