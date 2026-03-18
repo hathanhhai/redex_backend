@@ -9,7 +9,7 @@ services:
     ports:
       - "2045:8000"
     volumes:
-      - .:/var/www/html
+      - /hthai/jenkins_data/workspace/redex_backend:/var/www/html
     environment:
       APP_ENV: local
       APP_DEBUG: "true"
