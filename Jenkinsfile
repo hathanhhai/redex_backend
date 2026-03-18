@@ -12,9 +12,9 @@ pipeline {
        
         stage('Docker Build and Deploy Production'){
             steps{
-                 sh 'docker rm -f redex_backend &> /dev/null'
-                 sh 'docker compose -f docker-compose.yml -p redex_backend up --build -d --force-recreate'
-                 sh 'docker exec  redex_backend sh -c "chmod 777 -R storage/ && chmod 777 -R public/"'
+                 sh 'docker rm -f redex_backend_app &> /dev/null'
+                 sh 'docker compose -f docker-compose.yml -p redex_backend_app up --build -d --force-recreate'
+                 sh 'docker exec  redex_backend_app sh -c "chmod 777 -R storage/ && chmod 777 -R public/"'
                  sh 'docker rmi $(docker images --filter "dangling=true" -q --no-trunc)'
             }
         }
