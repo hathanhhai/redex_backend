@@ -6,7 +6,10 @@ Just run cmd:
 _after run CMD waiting 1 minute for building_
 
 
-it will run port: loclhost:2045
+**it will run port:**
+
+**localhost:2045**
+
 I selected Laravel because for quickly and this feature no need hightraffic, it Laravel also no need config or create file route it all ready there.
 
 ---
