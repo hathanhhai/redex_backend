@@ -16,4 +16,4 @@ Deployment
 With URL: **https://redex-be.congcucuatoi.com**
 
 
-![Uploading image.png…]()
+<img width="1791" height="1005" alt="image" src="https://github.com/user-attachments/assets/a3de5104-0015-44c4-839e-08be5c759fa3" />
