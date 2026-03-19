@@ -1,7 +1,7 @@
 Setup local
 
 Just run cmd below:
-docker compose -f docker-compose.yml -p redex_backend up --build -d --force-recreate 
+**docker compose -f docker-compose.yml -p redex_backend up --build -d --force-recreate** 
 
 it will run port: loclhost:2045
 I selected Laravel because for quickly and this feature no need hightraffic, it Laravel also no need config or create file route it all ready there.
@@ -13,6 +13,7 @@ Deployment
     + pull SCM from GIT
     + Build docker
 
-With URL: https://redex-be.congcucuatoi.com
+With URL: **https://redex-be.congcucuatoi.com**
 
 
+![Uploading image.png…]()
